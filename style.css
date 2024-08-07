@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+body {
+display: flex;
+}
+#background-img {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.9;
+}
+aside{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgba(71, 78, 77, 1);
+    height: 100vh;
+}
+#logo {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 90px;
+    opacity: 0.8;
+
+}
+.linkedinicons, .gmailicons {
+    width: 40px;
+    margin-left: 30px;
+}
+.githubicons {
+    width: 30px;
+    margin-left: 100px;
+}
+.gmailicons {
+    margin-top: 10px;
+}
+ul {
+    display: flex;
+    max-width: 90px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+li {
+    padding: 0;
+    display: inline;
+    margin-top: 5px;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
+.main-div-container {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.main-div {
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    color: white;
+    border-bottom-left-radius: 50px ;
+    border-top-left-radius: 50px ;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 70vh;
+}
+.main-div2 {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom-right-radius: 50px ;
+    border-top-right-radius: 50px ;
+    width: 30vw;
+    height: 70vh;
+    display: flex;
+}
+h1.main-content {
+    margin: 10px 0px 0px 100px;
+    text-transform: uppercase;
+}
+h3.main-content {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 150px 50px 0px 100px;
+}
+p.info {
+    margin: 2px 50px 0px 100px;
+    font-weight: lighter;
+    
+}
+img.imgdiv2 {
+    width: 500px;
+    margin: 50px 50px 100px 0px;
+}
+.coloridonome {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
