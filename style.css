@@ -7,19 +7,17 @@
     font-style: normal;
 }
 body {
-display: flex;
+display: flexbox;
+background-image: url(./img/pexels-viktortalashuk-2362009.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
 }
-#background-img {
-    position: absolute;
-    height: 100vh;
-    width: 100vw;
-    opacity: 1;
-}
+
 aside{
     display: flexbox;
     justify-content: center;
     align-items: center;
-    position: relative;
     background-color: rgba(71, 78, 77, 1);
     height: 100vh;
 }
@@ -27,7 +25,6 @@ aside{
     display: block;
     margin: 0;
     padding: 0;
-    position: relative;
     width: 90px;
     opacity: 0.8;
 
@@ -60,7 +57,6 @@ li {
 }
 .main-div-container {
     display: flex;
-    position: relative;
     width: 100vw;
     height: 100vh;
     align-items: center;
@@ -68,7 +64,6 @@ li {
 }
 .main-div {
     background-color: rgba(255, 255, 255, 0.2);
-    position: relative;
     color: white;
     border-bottom-left-radius: 50px ;
     border-top-left-radius: 50px ;
